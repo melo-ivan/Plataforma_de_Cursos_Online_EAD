@@ -62,7 +62,6 @@ npm install
 
 # Inicie a aplicação
 npm run dev
-📁 Estrutura do Projeto
 src/
 ├── assets/       # Imagens, logos, ícones
 ├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
@@ -70,7 +69,3 @@ src/
 ├── services/     # Serviços de API e requisições
 ├── utils/        # Funções utilitárias
 └── App.tsx       # Componente principal da aplicação
-👨‍💻 Autor
-Desenvolvido por Melo Ivan
-🔗 LinkedIn
-💻 GitHub
