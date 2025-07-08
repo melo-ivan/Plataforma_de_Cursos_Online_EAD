@@ -7,20 +7,17 @@
 
 Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
 
-
-Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
-
-Plataforma moderna e escalável de cursos online com autenticação, gerenciamento e interface responsiva.
+---
 
 ## 🔗 Acesse agora
 
-🌐 ** Endereço:**  
+🌐 **Endereço em produção:**  
 ➡️ [https://legendary-sawine-e4b380.netlify.app](https://legendary-sawine-e4b380.netlify.app)
 
 📦 **Repositório no GitHub:**  
 ➡️ [https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD](https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD)
 
-
+---
 
 ## 🧠 Funcionalidades
 
@@ -32,37 +29,28 @@ Plataforma moderna e escalável de cursos online com autenticação, gerenciamen
 - ⚙️ Integração com API (Spring Boot)
 - 💬 Interface intuitiva e moderna
 
-
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 ### 💻 Frontend
+
 - **HTML5**
-- **CSS3 (com frameworks modernos como Tailwind ou Bootstrap)**
+- **CSS3 (com Tailwind CSS ou Bootstrap)**
 - **JavaScript (ES6+)**
-- **Framework JS:** React.js ou equivalente (dependendo do projeto)
-- **Deploy:** Netlify
+- **React + TypeScript**
+- **Vite**
+- **Deploy via Netlify**
 
 ### 🔙 Backend (em construção ou integrado)
+
 - **Spring Boot (Java)**
 - **REST API**
 - **Banco de Dados:** MySQL / PostgreSQL (opcional)
 
-
+---
 
 ## 🚀 Como Rodar Localmente
-
-
-# Clone este repositório
-git clone https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD.git
-
-# Acesse a pasta do projeto
-cd Plataforma_de_Cursos_Online_EAD
-
-# Instale as dependências
-npm install
-
-# 🚀 Como Rodar Localmente
 
 ```bash
 # Clone este repositório
@@ -76,6 +64,7 @@ npm install
 
 # Inicie a aplicação
 npm run dev
+
 src/
 ├── assets/       # Imagens, logos, ícones
 ├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
@@ -84,21 +73,11 @@ src/
 ├── utils/        # Funções utilitárias
 └── App.tsx       # Componente principal da aplicação
 
-
 👨‍💻 Autor
 Desenvolvido por Melo Ivan
+🔗 LinkedIn
+💻 GitHub
 
-💼 www.linkedin.com/in/melo-ivan
+---
 
-💻 [GitHub](https://github.com/melo-ivan)
-
-📄 Licença
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
-
-⭐️ Dê uma estrela!
-Se você gostou do projeto, não esqueça de deixar uma ⭐ no repositório!
-
-ead, plataforma-ead, cursos-online, react, tailwind, typescript, springboot, netlify
-
-
-
+Se quiser, posso também criar um `ROADMAP.md`, `CHANGELOG.md` ou `CONTRIBUTING.md` para elevar ainda mais o nível do projeto. É só chamar. 🚀
