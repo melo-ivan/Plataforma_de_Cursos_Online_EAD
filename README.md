@@ -1,8 +1,12 @@
 # 🎓 Plataforma de Cursos Online EAD
 
- [![Netlify Status](https://api.netlify.com/api/v1/badges/SEU-ID/deploy-status)](https://legendary-sawine-e4b380.netlify.app)
-[![GitHub](https://img.shields.io/badge/Código%20Fonte-GitHub-24292e?logo=github&logoColor=white)](https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD/)
-[![LinkedIn](https://img.shields.io/badge/Autor-Melo%20Ivan-0e76a8?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melo-ivan)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+![License](https://img.shields.io/github/license/melo-ivan/Plataforma_de_Cursos_Online_EAD)
+![Deploy](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Flegendary-sawine-e4b380.netlify.app)
+![Tech Stack](https://img.shields.io/badge/stack-React%2C%20TypeScript%2C%20Tailwind-informational)
+
+Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
+
 
 Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
 
