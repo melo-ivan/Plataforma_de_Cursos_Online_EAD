@@ -21,13 +21,13 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 
 ## 🧠 Funcionalidades
 
-- 📚 Listagem de cursos disponíveis
-- 👨‍🏫 Visualização de detalhes dos cursos
-- 🔐 Autenticação de usuários
-- 🧑‍💼 Diferenciação de perfis (Admin / Instrutor / Aluno)
-- 📈 Painel administrativo
-- ⚙️ Integração com API (Spring Boot)
-- 💬 Interface intuitiva e moderna
+- 📚 Listagem de cursos disponíveis  
+- 👨‍🏫 Visualização de detalhes dos cursos  
+- 🔐 Autenticação de usuários  
+- 🧑‍💼 Diferenciação de perfis (Admin / Instrutor / Aluno)  
+- 📈 Painel administrativo  
+- ⚙️ Integração com API (Spring Boot)  
+- 💬 Interface intuitiva e moderna  
 
 ---
 
@@ -35,18 +35,18 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 
 ### 💻 Frontend
 
-- **HTML5**
-- **CSS3 (com Tailwind CSS ou Bootstrap)**
-- **JavaScript (ES6+)**
-- **React + TypeScript**
-- **Vite**
-- **Deploy via Netlify**
+- HTML5  
+- CSS3 (Tailwind CSS ou Bootstrap)  
+- JavaScript (ES6+)  
+- React + TypeScript  
+- Vite  
+- Deploy via Netlify  
 
 ### 🔙 Backend (em construção ou integrado)
 
-- **Spring Boot (Java)**
-- **REST API**
-- **Banco de Dados:** MySQL / PostgreSQL (opcional)
+- Spring Boot (Java)  
+- REST API  
+- Banco de Dados: MySQL / PostgreSQL (opcional)  
 
 ---
 
@@ -65,6 +65,7 @@ npm install
 # Inicie a aplicação
 npm run dev
 
+📁 Estrutura do Projeto
 src/
 ├── assets/       # Imagens, logos, ícones
 ├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
@@ -78,6 +79,3 @@ Desenvolvido por Melo Ivan
 🔗 LinkedIn
 💻 GitHub
 
----
-
-Se quiser, posso também criar um `ROADMAP.md`, `CHANGELOG.md` ou `CONTRIBUTING.md` para elevar ainda mais o nível do projeto. É só chamar. 🚀
