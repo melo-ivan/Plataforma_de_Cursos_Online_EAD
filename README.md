@@ -58,16 +58,28 @@ cd Plataforma_de_Cursos_Online_EAD
 # Instale as dependências
 npm install
 
-# Inicie a aplicação
-npm start
+# 🚀 Como Rodar Localmente
 
-📁 src/
-├── 📁 assets/
-├── 📁 components/
-├── 📁 pages/
-├── 📁 services/
-├── 📁 utils/
-└── App.tsx
+```bash
+# Clone este repositório
+git clone https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD.git
+
+# Acesse a pasta do projeto
+cd Plataforma_de_Cursos_Online_EAD
+
+# Instale as dependências
+npm install
+
+# Inicie a aplicação
+npm run dev
+src/
+├── assets/       # Imagens, logos, ícones
+├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
+├── pages/        # Páginas principais (Home, Curso, Login, Dashboard)
+├── services/     # Serviços de API e requisições
+├── utils/        # Funções utilitárias
+└── App.tsx       # Componente principal da aplicação
+
 
 👨‍💻 Autor
 Desenvolvido por Melo Ivan
