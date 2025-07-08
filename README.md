@@ -72,9 +72,10 @@ Estrutura de Pastas (Frontend)
 👨‍💻 Autor
 Desenvolvido por Melo Ivan
 
-💼 LinkedIn
+💼 www.linkedin.com/in/melo-ivan
 
-💻 GitHub
+💻 [GitHub](https://github.com/melo-ivan)
+
 📄 Licença
 Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
 
