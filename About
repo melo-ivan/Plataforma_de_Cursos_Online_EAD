@@ -1,0 +1,12 @@
+💡 Plataforma EAD moderna e escalável desenvolvida com foco em desempenho, responsividade e experiência do usuário.  
+Conta com autenticação de usuários, diferenciação de perfis (Aluno, Instrutor e Admin), e integração com backend em Spring Boot. Ideal para escolas, professores independentes e empresas que desejam oferecer cursos online com agilidade e qualidade.
+
+🌐 Projeto em produção: https://legendary-sawine-e4b380.netlify.app  
+🔗 Repositório: https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD  
+👨‍💻 Desenvolvido por: [Melo Ivan](https://www.linkedin.com/in/melo-ivan)
+
+📌 **Principais tecnologias**:
+- React + TypeScript
+- Tailwind CSS
+- Vite
+- Spring Boot (backend em construção)
