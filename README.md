@@ -33,8 +33,7 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 
 ## 🛠️ Tecnologias Utilizadas
 
-### 💻 Frontend
-
+### 💻 Frontend  
 - HTML5  
 - CSS3 (Tailwind CSS ou Bootstrap)  
 - JavaScript (ES6+)  
@@ -42,8 +41,7 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 - Vite  
 - Deploy via Netlify  
 
-### 🔙 Backend (em construção ou integrado)
-
+### 🔙 Backend (em construção ou integrado)  
 - Spring Boot (Java)  
 - REST API  
 - Banco de Dados: MySQL / PostgreSQL (opcional)  
@@ -64,7 +62,6 @@ npm install
 
 # Inicie a aplicação
 npm run dev
-
 📁 Estrutura do Projeto
 src/
 ├── assets/       # Imagens, logos, ícones
@@ -73,9 +70,7 @@ src/
 ├── services/     # Serviços de API e requisições
 ├── utils/        # Funções utilitárias
 └── App.tsx       # Componente principal da aplicação
-
 👨‍💻 Autor
 Desenvolvido por Melo Ivan
 🔗 LinkedIn
 💻 GitHub
-
