@@ -10,7 +10,7 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 
 ## 🔗 Acesse agora
 
-🌐 **Site em Produção:**  
+🌐 ** Endereço:**  
 ➡️ [https://legendary-sawine-e4b380.netlify.app](https://legendary-sawine-e4b380.netlify.app)
 
 📦 **Repositório no GitHub:**  
