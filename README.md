@@ -1,20 +1,15 @@
 # 🎓 Plataforma de Cursos Online EAD
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
-![License](https://img.shields.io/github/license/melo-ivan/Plataforma_de_Cursos_Online_EAD)
-![Deploy](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Flegendary-sawine-e4b380.netlify.app)
-![Tech Stack](https://img.shields.io/badge/stack-React%2C%20TypeScript%2C%20Tailwind-informational)
-
 Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
 
 ---
 
 ## 🔗 Acesse agora
 
-🌐 **Endereço em produção:**  
+🌐 Endereço em produção:  
 ➡️ [https://legendary-sawine-e4b380.netlify.app](https://legendary-sawine-e4b380.netlify.app)
 
-📦 **Repositório no GitHub:**  
+📦 Repositório no GitHub:  
 ➡️ [https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD](https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD)
 
 ---
@@ -33,7 +28,7 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 
 ## 🛠️ Tecnologias Utilizadas
 
-### 💻 Frontend  
+### 💻 Frontend
 - HTML5  
 - CSS3 (Tailwind CSS ou Bootstrap)  
 - JavaScript (ES6+)  
@@ -41,7 +36,7 @@ Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo 
 - Vite  
 - Deploy via Netlify  
 
-### 🔙 Backend (em construção ou integrado)  
+### 🔙 Backend (em construção ou integrado)
 - Spring Boot (Java)  
 - REST API  
 - Banco de Dados: MySQL / PostgreSQL (opcional)  
