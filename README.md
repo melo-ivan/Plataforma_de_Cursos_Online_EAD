@@ -1,4 +1,8 @@
-# 🎓 Plataforma de Cursos Online EAD
+![License](https://img.shields.io/github/license/melo-ivan/Plataforma_de_Cursos_Online_EAD)
+![Build](https://img.shields.io/github/actions/workflow/status/melo-ivan/Plataforma_de_Cursos_Online_EAD/ci.yml)
+![Deploy](https://img.shields.io/website?url=https://legendary-sawine-e4b380.netlify.app)
+
+🎓 Plataforma de Cursos Online EAD
 
 Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
 
