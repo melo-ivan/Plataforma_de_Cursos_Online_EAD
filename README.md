@@ -1,70 +1,119 @@
-![License](https://img.shields.io/github/license/melo-ivan/Plataforma_de_Cursos_Online_EAD)
-![Build](https://img.shields.io/github/actions/workflow/status/melo-ivan/Plataforma_de_Cursos_Online_EAD/ci.yml)
-![Deploy](https://img.shields.io/website?url=https://legendary-sawine-e4b380.netlify.app)
+# 🎓 Plataforma de Cursos Online EAD
 
-🎓 Plataforma de Cursos Online EAD
+![Status](https://img.shields.io/badge/status-online-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/frontend-React.js-blue)
+![Spring Boot](https://img.shields.io/badge/backend-SpringBoot-green)
+![TypeScript](https://img.shields.io/badge/language-TypeScript-lightgrey)
+![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-blueviolet)
 
-Plataforma Web moderna e responsiva para ensino à distância (EAD), oferecendo recursos como visualização de cursos, gerenciamento de usuários e integração com backend. Ideal para escolas, empresas ou professores independentes que desejam oferecer conteúdo digital com praticidade e escalabilidade.
+A **Plataforma de Cursos Online EAD** é um sistema educacional completo, desenvolvido com uma arquitetura moderna full stack, para simular um ambiente real de ensino a distância.  
 
----
-
-## 🔗 Acesse agora
-
-🌐 Endereço em produção:  
-➡️ [https://legendary-sawine-e4b380.netlify.app](https://legendary-sawine-e4b380.netlify.app)
-
-📦 Repositório no GitHub:  
-➡️ [https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD](https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD)
+Ela oferece autenticação segura, múltiplos perfis de usuário, gestão de cursos e aulas, dashboards interativos e uma interface responsiva e agradável.
 
 ---
 
-## 🧠 Funcionalidades
+## 🔗 Acesse o Projeto em Produção
 
-- 📚 Listagem de cursos disponíveis  
-- 👨‍🏫 Visualização de detalhes dos cursos  
-- 🔐 Autenticação de usuários  
-- 🧑‍💼 Diferenciação de perfis (Admin / Instrutor / Aluno)  
-- 📈 Painel administrativo  
-- ⚙️ Integração com API (Spring Boot)  
-- 💬 Interface intuitiva e moderna  
+> 🌐 [Frontend Deploy (Netlify)](https://seu-link.netlify.app)  
+> ⚙️ [Backend API (Swagger/Heroku)](https://seu-backend-api.com/swagger)
+
+---
+
+## 🧠 Visão Geral das Funcionalidades
+
+### 🔐 Autenticação e Controle de Acesso
+- Login seguro com JWT
+- Registro de novos usuários
+- Validação de formulários
+- Proteção de rotas com base no perfil
+- Atualização de perfil e logout
+
+### 👥 Perfis de Usuários
+
+| Perfil         | Funcionalidades                                                  |
+|----------------|------------------------------------------------------------------|
+| 🎓 Estudante   | Visualiza cursos, aulas, progresso e certificados (mock)        |
+| 👩‍🏫 Professor | Gerencia cursos e aulas, acompanha alunos e agenda              |
+| 🛠️ Administrador | Controle total do sistema: usuários, relatórios e auditoria     |
+
+### 📚 Gestão Educacional
+- Criação e edição de cursos e aulas
+- Upload e exibição de vídeos/aulas (simulados)
+- Matrícula e progresso de estudantes
+- Painéis com indicadores por perfil
+- Gerenciamento de categorias e turmas
+
+### 📊 Dashboards Interativos
+- Gráficos com desempenho do aluno
+- Estatísticas de engajamento por curso
+- Comparativo entre turmas
+
+### 💻 Experiência do Usuário
+- Interface moderna e responsiva (Tailwind)
+- Navegação fluida com React Router
+- Feedback visual com animações
+- Componentes reutilizáveis com TypeScript
+- UX adaptado por tipo de usuário
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-### 💻 Frontend
-- HTML5  
-- CSS3 (Tailwind CSS ou Bootstrap)  
-- JavaScript (ES6+)  
-- React + TypeScript  
-- Vite  
-- Deploy via Netlify  
+### 🔷 Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Context API + custom hooks
 
-### 🔙 Backend (em construção ou integrado)
-- Spring Boot (Java)  
-- REST API  
-- Banco de Dados: MySQL / PostgreSQL (opcional)  
+### 🔶 Backend
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- JPA/Hibernate
+- PostgreSQL
 
 ---
 
-## 🚀 Como Rodar Localmente
+## 📁 Estrutura do Projeto (Frontend)
 
 ```bash
-# Clone este repositório
-git clone https://github.com/melo-ivan/Plataforma_de_Cursos_Online_EAD.git
-
-# Acesse a pasta do projeto
-cd Plataforma_de_Cursos_Online_EAD
+plataforma-ead/
+│
+├── public/                # Imagens e arquivos estáticos
+├── src/
+│   ├── assets/            # Ícones, imagens e vídeos
+│   ├── components/        # Componentes reutilizáveis
+│   ├── contexts/          # Auth e outros contextos globais
+│   ├── pages/             # Telas (Login, Dashboard, Cursos, etc.)
+│   ├── routes/            # Definição e proteção de rotas
+│   ├── services/          # Integração com backend (Axios)
+│   ├── utils/             # Funções auxiliares
+│   └── App.tsx            # Componente principal
+│
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── README.md
+# Clone o repositório
+git clone https://github.com/seuusuario/Plataforma_de_Cursos_Online_EAD.git
+cd frontend
 
 # Instale as dependências
 npm install
 
-# Inicie a aplicação
+# Rode o servidor
 npm run dev
-src/
-├── assets/       # Imagens, logos, ícones
-├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
-├── pages/        # Páginas principais (Home, Curso, Login, Dashboard)
-├── services/     # Serviços de API e requisições
-├── utils/        # Funções utilitárias
-└── App.tsx       # Componente principal da aplicação
+# Navegue até o diretório backend
+cd backend
+
+# Compile e rode o projeto
+./mvnw spring-boot:run
+# Fork o repositório
+# Crie sua branch: git checkout -b minha-feature
+# Commit: git commit -m 'feat: minha melhoria'
+# Push: git push origin minha-feature
+# Crie um Pull Request 🚀
+
