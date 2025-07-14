@@ -1,119 +1,75 @@
-# 🎓 Plataforma de Cursos Online EAD
+# 🎓 Plataforma de Cursos Online (EAD)
 
 ![Status](https://img.shields.io/badge/status-online-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![React](https://img.shields.io/badge/frontend-React.js-blue)
-![Spring Boot](https://img.shields.io/badge/backend-SpringBoot-green)
-![TypeScript](https://img.shields.io/badge/language-TypeScript-lightgrey)
+![Spring Boot](https://img.shields.io/badge/backend-Spring%20Boot-yellowgreen)
+![TypeScript](https://img.shields.io/badge/language-TypeScript-blue)
 ![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-blueviolet)
 
-A **Plataforma de Cursos Online EAD** é um sistema educacional completo, desenvolvido com uma arquitetura moderna full stack, para simular um ambiente real de ensino a distância.  
-
-Ela oferece autenticação segura, múltiplos perfis de usuário, gestão de cursos e aulas, dashboards interativos e uma interface responsiva e agradável.
+A **Plataforma de Cursos Online (EAD)** é um sistema educacional **Full Stack**, moderno e funcional, que simula o ambiente de uma instituição de ensino digital. Desenvolvido com foco em boas práticas de arquitetura, autenticação e usabilidade, o projeto permite o gerenciamento completo de cursos, usuários e conteúdo educacional, com dashboards por perfil.
 
 ---
 
-## 🔗 Acesse o Projeto em Produção
+## 🔗 Acesse o Projeto Online
 
-> 🌐 [Frontend Deploy (Netlify)](https://seu-link.netlify.app)  
-> ⚙️ [Backend API (Swagger/Heroku)](https://seu-backend-api.com/swagger)
-
----
-
-## 🧠 Visão Geral das Funcionalidades
-
-### 🔐 Autenticação e Controle de Acesso
-- Login seguro com JWT
-- Registro de novos usuários
-- Validação de formulários
-- Proteção de rotas com base no perfil
-- Atualização de perfil e logout
-
-### 👥 Perfis de Usuários
-
-| Perfil         | Funcionalidades                                                  |
-|----------------|------------------------------------------------------------------|
-| 🎓 Estudante   | Visualiza cursos, aulas, progresso e certificados (mock)        |
-| 👩‍🏫 Professor | Gerencia cursos e aulas, acompanha alunos e agenda              |
-| 🛠️ Administrador | Controle total do sistema: usuários, relatórios e auditoria     |
-
-### 📚 Gestão Educacional
-- Criação e edição de cursos e aulas
-- Upload e exibição de vídeos/aulas (simulados)
-- Matrícula e progresso de estudantes
-- Painéis com indicadores por perfil
-- Gerenciamento de categorias e turmas
-
-### 📊 Dashboards Interativos
-- Gráficos com desempenho do aluno
-- Estatísticas de engajamento por curso
-- Comparativo entre turmas
-
-### 💻 Experiência do Usuário
-- Interface moderna e responsiva (Tailwind)
-- Navegação fluida com React Router
-- Feedback visual com animações
-- Componentes reutilizáveis com TypeScript
-- UX adaptado por tipo de usuário
+👉 [https://legendary-sawine-e4b380.netlify.app/](https://legendary-sawine-e4b380.netlify.app/)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Funcionalidades Principais
 
-### 🔷 Frontend
-- React.js
-- TypeScript
-- Tailwind CSS
-- React Router DOM
-- Axios
-- Context API + custom hooks
-
-### 🔶 Backend
-- Spring Boot
-- Spring Security
-- JWT Authentication
-- JPA/Hibernate
-- PostgreSQL
+- 🔐 Autenticação segura com **JWT**
+- 🧑‍🏫 Painéis para **Estudante**, **Professor** e **Administrador**
+- 📚 Gestão de cursos, aulas, usuários e conteúdos
+- 📊 Dashboards com indicadores de progresso
+- 🎓 Controle de matrícula, notas e certificados
+- 💬 Feedback visual (loading, validações, erros)
+- 📱 Interface responsiva (Tailwind CSS)
 
 ---
 
-## 📁 Estrutura do Projeto (Frontend)
+## 👥 Perfis de Usuário
+
+| Perfil         | Acesso                                                                 |
+|----------------|------------------------------------------------------------------------|
+| Estudante      | Visualização de cursos, aulas, progresso, certificados                 |
+| Professor      | Gerenciamento de cursos, conteúdos e acompanhamento de alunos          |
+| Administrador  | Gestão de usuários, relatórios, cursos e permissões                    |
+
+---
+
+## 🧱 Estrutura do Projeto
 
 ```bash
-plataforma-ead/
+Plataforma_de_Cursos_Online_EAD/
+├── frontend/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── contexts/
+│   │   ├── pages/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── App.tsx
+│   ├── public/
+│   └── package.json
 │
-├── public/                # Imagens e arquivos estáticos
-├── src/
-│   ├── assets/            # Ícones, imagens e vídeos
-│   ├── components/        # Componentes reutilizáveis
-│   ├── contexts/          # Auth e outros contextos globais
-│   ├── pages/             # Telas (Login, Dashboard, Cursos, etc.)
-│   ├── routes/            # Definição e proteção de rotas
-│   ├── services/          # Integração com backend (Axios)
-│   ├── utils/             # Funções auxiliares
-│   └── App.tsx            # Componente principal
-│
-├── package.json
-├── tsconfig.json
-├── tailwind.config.js
-└── README.md
-# Clone o repositório
-git clone https://github.com/seuusuario/Plataforma_de_Cursos_Online_EAD.git
-cd frontend
-
-# Instale as dependências
-npm install
-
-# Rode o servidor
-npm run dev
-# Navegue até o diretório backend
+├── backend/
+│   ├── src/
+│   │   └── main/java/com/ead/
+│   │       ├── controllers/
+│   │       ├── models/
+│   │       ├── repositories/
+│   │       ├── services/
+│   │       ├── security/
+│   └── pom.xml
+# Na pasta backend/
 cd backend
+# Configure o application.properties com seu banco local
+mvn spring-boot:run
 
-# Compile e rode o projeto
-./mvnw spring-boot:run
-# Fork o repositório
-# Crie sua branch: git checkout -b minha-feature
-# Commit: git commit -m 'feat: minha melhoria'
-# Push: git push origin minha-feature
-# Crie um Pull Request 🚀
-
+# Na pasta frontend/
+cd frontend
+npm install
+npm run dev
